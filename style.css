@@ -1,9 +1,11 @@
-* {
-    font-family: "Times New Roman", Times, serif;
-    font-size: larger;
-    letter-spacing: 1px;
-    font-weight: bolder;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ 
+}
   .wallpaper {
     display: grid;
     place-content: center;
@@ -16,6 +18,10 @@
     place-content: center;
     border-radius: 10px;
     color: rgb(0, 255, 21);
+  }
+  .heading{
+    letter-spacing: 2px;
+    font-weight: bolder;
   }
   .time {
     max-width: 150px;
