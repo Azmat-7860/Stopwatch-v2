@@ -1,0 +1,30 @@
+* {
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+    letter-spacing: 1px;
+    font-weight: bolder;
+  }
+  .wallpaper {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+  }
+  .background-container {
+    min-width: 200px;
+    min-height: 300px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    color: rgb(0, 255, 21);
+  }
+  .time {
+    max-width: 150px;
+    width: auto;
+    border-radius: 3px;
+    font-size: large;
+    font-weight: 600;
+  }
+  p {
+    font-size: small;
+    margin: 10px;
+  }
